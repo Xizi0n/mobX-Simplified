@@ -1,13 +1,67 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background-color: #292929;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.inputs input {
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.inputs button {
+    font-size: 20px;
+    margin-left: 10px;
+    background: #108600;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.bookInfo {
+    font-size: 40px;
+    font-weight: 200;
+    color: whitesmoke;
+    margin-bottom: 70px;
+}
+
+.addBookInfo {
+    font-size: 50px;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.book-list ul li {
+    color: whitesmoke;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.book-list ul .list-item:hover {
+    color: #c0392b;
+    text-decoration: line-through;
+}
+
+.list-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.book-list {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.book-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
