@@ -50,4 +50,5 @@ class AddBook extends Component {
   }
 }
 
+// Itt azért nem wrappeljük observerként, mivel nincs a komponensben olyan adat amit a storeból nyernénk, csak action-t használunk
 export default AddBook;

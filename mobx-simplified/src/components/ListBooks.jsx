@@ -42,5 +42,5 @@ const ListBooks = () => {
     </div>
   );
 };
-
+// Exportálásnál figyeljünk arra, hogy observerként exportáljuk azokat a komponenseket akiknek lényeges a store- state-je
 export default observer(ListBooks);
